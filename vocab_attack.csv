@@ -1,0 +1,6 @@
+,iter,method,num_tweets_tested,num_tweets_predicted_right,real_acc,adj_acc
+0,0,MultinomialNB CountVectorizer,167,11.000000000000002,0.0658682634730539,0.8438438438438438
+1,0,SGDClassifier,167,9.0,0.05389221556886228,0.8418418418418419
+2,0,PassiveAggressiveClassifier: C = 0.01,167,9.0,0.05389221556886228,0.8418418418418419
+3,0,MultinomialNB TfidfVectorizer,167,0.0,0.0,0.8328328328328328
+4,0,LinearSVC: C = 0,167,9.0,0.05389221556886228,0.8418418418418419
